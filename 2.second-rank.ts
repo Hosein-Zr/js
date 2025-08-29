@@ -16,9 +16,8 @@ function findSecond(arr: number[]): number {
   return arr.indexOf(sortedArr[1]);
 }
 
-
 // * More efficient. Why?
-// ! hint: O(n) and o(n log n)
+// ! Hint: O(n) and o(n log n)
 // function findSecond(arr: number[]): number {
 //   let max = -Infinity,
 //     second = -Infinity;
@@ -33,6 +32,6 @@ function findSecond(arr: number[]): number {
 //   return second;
 // }
 
-console.log(findSecond([10, 40, 30, 20, 50]));   // 40
+console.log(findSecond([10, 40, 30, 20, 50])); // 40
 console.log(findSecond([25, 143, 89, 13, 105])); // 105
-console.log(findSecond([54, 23, 11, 17, 10]));   // 23
+console.log(findSecond([54, 23, 11, 17, 10])); // 23

@@ -14,10 +14,8 @@ function twoNumbersAddToTargetValue(
   return false;
 }
 
-
-
-// *Which one is more efficient? Why?
-// ! O(1) and o(n)?
+// * Which one is more efficient? Why?
+// ! Hint: O(1) and o(n)?
 // function twoNumbersAddToTargetValue(
 //   arr1: number[],
 //   arr2: number[],
@@ -33,8 +31,6 @@ function twoNumbersAddToTargetValue(
 
 //   return false;
 // }
-
-
 
 console.log(twoNumbersAddToTargetValue([1, 2], [4, 5, 6], 5)); // true
 console.log(twoNumbersAddToTargetValue([1, 2], [4, 5, 6], 8)); // true
