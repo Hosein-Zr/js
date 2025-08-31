@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "CommonJS",
+    "target": "ES2022", // compile target
+    "lib": ["ESNext", "DOM"], // use ES2024 features
+    "module": "ESNext",
     "strict": true,
-    "esModuleInterop": true
+    "skipLibCheck": true
   }
 }
