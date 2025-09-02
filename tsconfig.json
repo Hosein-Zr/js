@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2022", // compile target
-    "lib": ["ESNext", "DOM"], // use ES2024 features
+    "lib": ["ESNext", "DOM" , "dom.iterable"], // use ES2024 features
     "module": "ESNext",
     "strict": true,
     "skipLibCheck": true
