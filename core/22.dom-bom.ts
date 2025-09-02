@@ -7,6 +7,10 @@
  * As a frontend developer, these are your foundation for interacting with the browser environment.
  */
 
+// * React already abstracts DOM manipulation (useRef, JSX updates).
+// * Direct document.querySelector etc. is rare in React (unless low-level).
+// * Native in React: ✅ (React handles DOM updates).
+
 // Example: Access and update an element
 const heading = document.getElementById("my-heading"); // get element by id
 if (heading) {

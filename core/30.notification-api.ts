@@ -8,6 +8,11 @@
  * - Common use cases: chat alerts, reminders, mobile feedback.
  */
 
+// * This section in react
+// * Rarely wrapped; usually raw API.
+// * You may find hooks like useNotification in usehooks-ts.
+
+
 const notifyBtn = document.querySelector<HTMLButtonElement>("#notify");
 const vibrateBtn = document.querySelector<HTMLButtonElement>("#vibrate");
 

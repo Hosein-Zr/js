@@ -15,6 +15,10 @@
  * - Process them progressively
  */
 
+// * React doesn’t integrate with Streams directly.
+// * Usually handled at fetch layer (e.g., React Server Components in Next.js 13+ use Streams under the hood).
+// * Libraries: swr, react-query can wrap data fetching, but not Streams specifically.
+
 const streamBtn = document.querySelector<HTMLButtonElement>("#start-stream");
 const output2 = document.querySelector<HTMLPreElement>("#stream-output2");
 

@@ -10,6 +10,10 @@
  * - Requires secure context (HTTPS) and user interaction (click/keypress).
  */
 
+
+// * Raw API works fine, but libraries exist:
+// * react-use-clipboard
+// * usehooks-ts → useCopyToClipboard()
 const copyButton = document.querySelector<HTMLButtonElement>("#copy-btn");
 const pasteButton = document.querySelector<HTMLButtonElement>("#paste-btn");
 const output = document.querySelector<HTMLParagraphElement>("#output");

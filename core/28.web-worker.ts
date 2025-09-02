@@ -14,7 +14,12 @@
  * 4. Worker runs in parallel without freezing UI
  */
 
-// ✅ Create worker
+// * React doesn’t abstract Workers.
+// * Libraries help:
+// * use-worker
+// * react-hooks-worker
+// * Or use bundlers (workerize-loader, Vite plugin) to integrate.
+
 const worker = new Worker(new URL("./web-worker-worker.ts", import.meta.url), {
   type: "module",
 });
@@ -38,8 +43,6 @@ if (startBtn && resultOutput) {
     console.log("Primes:", primes.slice(0, 20), "..."); // show first 20
   };
 }
-
-
 
 /**
  * web-worker-worker.ts

@@ -10,6 +10,11 @@
  *    navigator.geolocation.watchPosition(success, error)  → keeps tracking
  */
 
+// * Common React wrappers:
+// * react-use → useGeolocation()
+// * @uidotdev/usehooks → useGeolocation()
+// * Makes permission & state handling simpler.
+
 const locationBtn = document.querySelector<HTMLButtonElement>("#get-location");
 const locationOutput =
   document.querySelector<HTMLParagraphElement>("#location");

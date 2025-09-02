@@ -7,6 +7,10 @@
  * - Common use cases: image preview, file uploads, text parsing, client-side validation.
  */
 
+// * Many React wrappers for file uploads:
+// * react-dropzone (drag & drop)
+// * react-uploady
+
 const fileInput = document.querySelector<HTMLInputElement>("#file-input");
 const dropZone = document.querySelector<HTMLDivElement>("#drop-zone");
 const output3 = document.querySelector<HTMLDivElement>("#file-output3");
